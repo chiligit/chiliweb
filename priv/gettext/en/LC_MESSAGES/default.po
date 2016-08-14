@@ -1,0 +1,8 @@
+msgid "page.title"
+msgstr "ChiliSoft | Home  | Business IT / Software"
+
+msgid "page.description"
+msgstr "Chilisoft business home page"
+
+msgid "page.keywords"
+msgstr "business, it, development, java, elixir, phoenix, javascript, js, j2ee, spring, maven, html, css, mobile, technology, consulting, information technology, chilisoft, software"

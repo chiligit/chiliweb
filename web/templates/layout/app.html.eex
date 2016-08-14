@@ -2,12 +2,11 @@
 <html>
 	<head>
 	  <meta charset="utf-8">
-	  <title>ChiliSoft | Home  | Business IT / Software</title>
-
+		<title><%= gettext "page.title" %></title>
 	  <!--SEO Meta Tags-->
-	  <meta name="description" content="Chilisoft business home page" />
-	  <meta name="keywords" content="multipurpose, ios, material, blog, shop, portfolio, specialty pages, landing, elements, shortcodes, html5, css3, jquery, js, modernizr, gallery, slider, touch, mobile" />
-	  <meta name="author" content="chilisoft" />
+	  <meta name="description" content="<%= gettext "page.description" %>" />
+	  <meta name="keywords" content="<%= gettext "page.keywords" %>" />
+	  <meta name="author" content="ChiliSoft Kft." />
 
 	  <!--Mobile Specific Meta Tag-->
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
