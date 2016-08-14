@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/chiligit/chiliweb.svg?branch=master)](https://travis-ci.org/chiligit/chiliweb)
+
 # Chiliweb
 
 To start your Phoenix app:
