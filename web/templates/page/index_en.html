@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ChiliSoft | Home  | Business IT / Software</title>
+
+  <!--SEO Meta Tags-->
+  <meta name="description" content="Chilisoft business home page" />
+  <meta name="keywords" content="multipurpose, ios, material, blog, shop, portfolio, specialty pages, landing, elements, shortcodes, html5, css3, jquery, js, modernizr, gallery, slider, touch, mobile" />
+  <meta name="author" content="chilisoft" />
+
+  <!--Mobile Specific Meta Tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="img/logo/logo_icon.png" type="image/x-icon">
+  <link rel="icon" href="img/logo/logo_icon.png" type="image/x-icon">
+  
+  <!-- Vendor Styles -->
+  <link rel="stylesheet" href="masterslider/style/masterslider.css" media="screen">  
+
+  <!-- All Theme Styles including Bootstrap, FontAwesome, etc. compiled from styles.less-->
+  <link href="css/styles.css" rel="stylesheet" media="screen">
+
+    <!--Google Maps API-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5DLwPPVAz88_k0yO2nmFe7T9k1urQs84"></script>
+
+  <!--Modernizr / Detectizr-->
+  <script src="js/libs/modernizr.custom.js"></script>
+  <script src="js/libs/detectizr.min.js"></script>
+  
+</head>
+
+<!-- Body -->
+
+<body class="parallax">
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="spinner">
+      <div class="cube1"></div>
+      <div class="cube2"></div>
+    </div>
+  </div>
+    
+  <!-- Fake scrollbar (when open popups/modals) -->
+  <div class="fake-scrollbar"></div>
+
+  <!-- Top Bar -->
+  <!-- The screen width at which topbar disappears can be controlled through the variable "@topbar-hidden" in less/variables.less -->
+
+
+  <!-- Navbar -->
+  <!-- Add class ".navbar-sticky" to make navbar stuck when it hits the top of the page. You can also use modifier classes like: "navbar-dark", "navbar-ghost navbar-ghost-light", .navbar-ghost navbar-ghost-dark" to change navbar apperance. The screen width at which navbar collapses can be controlled through the variable "@nav-collapse" in less/variables.less -->
+  <header class="navbar navbar-sticky">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#site-menu" aria-controls="site-menu" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>        
+      </div>
+
+      <!-- Logo icon width can be adjusted trough the variable '@logo-img-max-width' in less/variables.less. The logo width (icon + text) can be adjusted trough the variable '@logo-max-width' in less/variables.less. -->
+      <a href="#home" class="logo smoothScroll">
+          <img src="img/logo/logo_chilisoft_small.png" alt="ChiliSoft">
+          <span class="text-gray">ChiliSoft</span>
+      </a>
+      
+      <!-- Toolbar -->
+      
+
+      <!-- Site Navigation -->
+      <nav class="navbar-nav" id="site-menu">        
+        <!-- Navigation -->
+        <ul class="languages">
+          <li><a href="index.html"><img src="img/icons/lang_hu.gif"/></a></li>
+        </ul>                
+        <ul class="menu">
+          <li class="has-mega-menu"><a href="#home" class="smoothScroll">Home</a></li>          
+          <li class="has-mega-menu"><a href="#about_us" class="smoothScroll">About us</a></li>
+          <li class="has-mega-menu"><a href="#services" class="smoothScroll">Services</a></li>
+          <li class="has-mega-menu"><a href="#technologies" class="smoothScroll">Technology</a></li>
+          <li class="has-mega-menu"><a href="#methodology" class="smoothScroll">Methodology</a></li>
+          <li class="has-mega-menu"><a href="#contact" class="smoothScroll">Contact</a></li>          
+        </ul>
+        
+      </nav>      
+    </div>
+  </header><!-- Navbar End -->  
+
+  <section class="section-fw section-video-bg padding-bottom-2x" id="home">
+  	  <a href="#home" class="logo smoothScroll">
+		  <img src="img/logo/logo_chilisoft_small.png" alt="ChiliSoft">
+		  <span>ChiliSoft</span>
+	  </a>
+	  <div class="img-placeholder " style="background-image: url(video/typing-placeholder.jpg)"></div>
+	  <video autoplay="autoplay" preload="auto" loop="loop" muted="muted">
+		  <source src="video/typing.mp4" type="video/mp4">
+		  <source src="video/typing.webm" type="video/webm">
+		  Sorry, your browser does not support HTML5 video.
+	  </video>
+	  <div class="container text-light text-center padding-top-3x">
+		  <div class="row">
+			  <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+				  <h2>We are working hard</h2>
+				  <h4 class="text-thin semi-transparent space-bottom">To deliver great user experience</h4>
+				  <!-- <p class="semi-transparent">See what people say about our work</p> -->
+				  <!-- Data API:
+					   data-nav="true" show/hide next/prev arrows
+					   data-dots="true/false" show/hide dots
+					   data-autoplay="true/false" enable/disable autoplay
+					   data-interval="3000" autoplay interval timeout in miliseconds
+				  -->
+				  <div class="widget widget-block widget-testimonial widget-testimonial-alt" data-nav="false" data-dots="false">
+					  <div class="inner owl-carousel owl-theme owl-loaded">
+						  <div class="owl-stage-outer owl-height" style="height: 251px;">
+							  <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0s;">
+								  <div class="owl-item active" style="margin-right: 20px;">
+									  <div class="item">
+										  <p class="lead text-thin"><em>(capsaicin) ⇒ development && consulting</em></p>
+										  <p class="lead text-thin"><em>"Quality means doing it right when no one is looking"</em></p>
+										  <div class="author">
+											  <img src="img/widgets/avatars/03.jpg" class="avatar" alt="James Taylor">
+											  Henry Ford
+										  </div>
+									  </div>
+								  </div>
+							  </div>
+						  </div>
+					  </div>                      
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="container space-bottom-2x">
+    <a id="about_us" class="anchor"></a>
+    <div>
+	  <div class="block-title on-light text-center no-borders padding-top" >
+        <h3>About Us</h3>
+      </div>
+      <div class="col-sm-6 text-center">
+        <h1 class="text-gray" style="font-size: 60px;"><strong>ChiliSoft Ltd.</strong></h1>
+		    <h6 class="text-gray">Software development & IT Consulting</h6>
+        <div class="size-m text-gray padding-top">Our primary principle is to understand the real goals of our clients and to achieve these with a joint effort. 
+        We believe that we can create and deliver great IT systems only if we thoroughly recognize the intrinsic needs and worfklows of our clients. Based on these we can obtain those solutions, which support and aid their users in the most handy way. May this system be a highly frequented website or an internal office application supporting the daily operations of employees.</div>        
+      </div>
+      <div class="col-sm-6">
+        <!-- Data API: 
+             data-decimal="number" How many digits after decimal point.
+             data-duration="number" The number of milliseconds it should take to finish counting.
+        -->
+        <div class="counter" data-decimals="0" data-duration="2000">
+          <img src="img/counters/rocket_chili.png" alt="Counter"><br>          
+          <div class="text-light">
+              <ul class="list-unstyled size-lg">
+                  <li>Outstanding attention to our customers</li>
+                  <li>Accurate assessment of business processes</li>
+                  <li>High level quality assurance</li>
+                  <li>Flexible attitude</li>
+                  <li>Quick feedbacks</li>
+                  <li>Guarantee and support</li>
+              </ul>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- INTRO END -->  
+  <!-- Services -->
+  <section class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/fw-backgrounds/bg06.jpg);">
+    <a id="services" class="anchor"></a>
+	  <div class="block-title on-light text-center no-borders padding-top">
+        <h3>Services</h3>
+    </div>
+    <div class="parallax space-top" data-stellar-background-ratio="0.5" style="background-image: url(img/homepage/introduction/code.jpg);">
+      <div class="container padding-top-2x">
+        <div class="row">
+          <div class="col-sm-6 animation" data-animation="flipInY">
+            <div class="content-box content-box-alt bg-solid-white text-center">
+              <div class="icon icon-2x pe-7s-config"></div>
+              <h2>Software development</h2>
+              <p class="space-bottom">With several years of experience behind us in development of custom software systems, we have specific knowledge in the following domains among others: governmental systems, automobile industry, telecommunications, banking and intranet systems.</p>              
+              <p class="space-bottom">We have delivered many administrative (manager) applications, which are not available publicly; they typically offer a solution for a specific problem. We have taken part in many projects including an emergency care medical system, a supervision platform for company-issued mobile phones, or quality assurance systems.</p>              
+            </div>
+          </div>
+          <div class="col-sm-6 animation" data-animation="flipInY">
+            <div class="content-box content-box-alt bg-solid-info text-center text-light">
+              <div class="icon icon-2x pe-7s-display2"></div>
+              <h2>Web development</h2>
+              <p class="space-bottom">In the field of web development we can offer you a wide range of solutions starting from small sites to complex web portals. We are adept in constructing and developing high-complexity systems, especially enterprise applications which support internal business processes. </p>
+              <p class="space-bottom"> We are keen on reviving and crafting innovative, content-rich and intuitive websites, which can be integrated with other systems used by your company as well. High-availability and robustness are common requirements, and our solutions are capable of serving hundreds of thousands or even millions of monthly visitors.                     
+            </div>
+          </div>
+            <div class="col-sm-3"></div>
+          <div class="col-sm-6 animation" data-animation="flipInY">
+            <div class="content-box content-box-alt bg-solid-primary text-center text-light">
+              <div class="icon icon-2x pe-7s-users"></div>
+              <h2>Consulting</h2>        
+              <p class="space-bottom">We can help our Customers to navigate in the mysteries of the ever-increasing IT world: whether it is an agile introduction of a new business application, developing a strategy to improve your enterprise architecture, or choosing the right technology stack & solution in any arising IT issue:<br/> we are at your disposal.</p>            
+              <p class="space-bottom">In our freetime we help our neighbours to select the right router as well ;)</p> 
+            </div>
+          </div>
+            <div class="col-sm-3"></div>
+
+        </div>
+      </div>    
+    </div>
+  </section><!-- Services End -->
+	<!-- Technologies -->    	
+	<section class="section-fw bg-solid-white padding-top">
+    <a id="technologies" class="anchor"></a>
+    <div class="block-title on-light text-center no-borders padding-top">
+      <h3>Technologies</h3>
+    </div>    
+
+		<div class="container text-center padding-top-3x">	
+			<div class="row">				
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<div class="content-box client-box text-center">
+						<a href="#" class="thumb">
+							<img src="img/homepage/introduction/tech-angular.png" alt="AngularJS" />
+						</a>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<div class="content-box client-box text-center">
+						<a href="#" class="thumb">
+							<img src="img/homepage/introduction/tech-java.png" alt="Java" />
+						</a>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<div class="content-box client-box text-center">
+						<a href="#" class="thumb">
+							<img src="img/homepage/introduction/tech-spring.png" alt="Spring" />
+						</a>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<div class="content-box client-box text-center">
+						<a href="#" class="thumb">
+							<img src="img/homepage/introduction/tech-hibernate.png" alt="Hibernate" />
+						</a>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<div class="content-box client-box text-center">
+						<a href="#" class="thumb">
+							<img src="img/homepage/introduction/tech-nodejs.png" alt="NodeJS" />
+						</a>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<div class="content-box client-box text-center">
+						<a href="#" class="thumb">
+							<img src="img/homepage/introduction/tech-mongo.png" alt="MongoDB" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+  </section><!-- Technologies End -->
+  <!-- Process -->
+  <section class="section-fw bg-solid-white padding-top padding-bottom" style="background-image: url(img/fw-backgrounds/bg01.jpg)">
+    <a id="methodology" class="anchor"></a>
+    <div class="block-title on-light text-center no-borders padding-top">
+      <h3>Methodology</h3>
+    </div>    
+    <div class="container bg-solid-white mfp-fade mfp-bg mfp-ready padding-top-2x">      
+      <div class="row">
+        <div class="col-lg-4 col-md-5 col-sm-6 space-bottom-2x text-center">
+          <div class="timeline">
+            <div class="timeline-row">
+              <div class="date">1. Step</div>
+              <div class="event">Business analysis</div>
+            </div>
+            <div class="timeline-row">
+              <div class="date">2. Step</div>
+              <div class="event">UX prototyping</div>
+            </div>
+            <div class="timeline-row">
+              <div class="date">3. Step</div>
+              <div class="event">Planning</div>
+            </div>
+            <div class="timeline-row">
+              <div class="date">4. Step</div>
+              <div class="event">Agile development</div>
+            </div>
+            <div class="timeline-row">
+              <div class="date">5. Step</div>
+              <div class="event">Support and operation</div>
+            </div>          
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-7 col-sm-6 space-bottom-2x text-center">
+          <div class="embed-responsive embed-responsive-16by9 space-bottom">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/502ILHjX9EE" allowfullscreen></iframe>            
+          </div>
+          <i>we love to apply agile methodologies in our projects, which are nicely summerized in the video above</i>
+        </div>
+      </div>
+    </div>
+  </section><!-- Process End -->
+	
+  <!-- Full Width Map -->
+  <section class="section-fw" >
+      <a id="contact" class="anchor"></a>
+	<div class="block-title on-light text-center no-borders padding-top">
+        <h3>Contact</h3>
+    </div>
+      <!-- Wrap your map with ".google-map-container" for usage with info box. -->
+      <div class="google-map-container">
+          <div class="container animation" data-animation="fadeInRightBig" data-animation-delay="200">
+              <div class="map-info-box dark-skin">
+                  <div class="inline map-info-box-logo">
+                      <div class="logo-icon"><img src="img/logo/logo-big_green.png" alt="Triumph"></div>
+                  </div>
+                  <div class="inline">
+                      <address class="space-bottom">
+                          <strong>ChiliSoft Ltd.</strong><br>
+                          HUNGARY, 1056 Budapest, Nyáry Pál str 6.<br>
+                          <strong>Telefon:</strong> +36 1 400 9475
+                          <div class="divider"></div>
+                      </address>
+                      <address>
+                          <a href="mailto:info_KUKAC_chilisoft_PÖTTY_org">info_AT_chilisoft_DOT_org</a>
+                      </address>
+                  </div>
+              </div>
+          </div>
+          <!-- Data API:
+               data-height="500" height of the map in pixels
+               data-address="Your address" string
+               data-zoom="number" to control map zoom when loaded
+               data-disable-controls="false/true" enable/disable map controls like pan, zoom, etc.
+               data-scrollwheel="true/false" enable/disable mouse scroll wheel zoom
+               data-marker="path_to_your_image" path to custom marker image
+               data-marker-title=" Your title" appears on marker hover
+               data-styles="[array]" you can adjust the look and feel of your map. Recommend to use https://snazzymaps.com
+           -->
+          <div class="google-map"
+               data-height="450"
+               data-address="1056 Budapest, Nyáry Pál utca 6., HU"
+               data-zoom="15"
+               data-disable-controls="true"
+               data-scrollwheel="false"
+               data-marker="img/map-marker.png"
+               data-marker-title="ChiliSoft Office"
+                  ></div>
+      </div>
+  </section><!-- Full Width Map End -->
+	<!-- Scroll to Top Button -->
+  <!-- Use 'data-scroll-top' attribute to set value at which point the scroll to top button appears. -->
+  <a href="#" class="btn btn-icon btn-primary scroll-to-top-btn scroll-up waves-effect waves-light" data-scroll-top="600">
+    <i class="pe-7s-angle-up" style="font-size:37px;"></i>
+  </a>
+
+
+  <!-- Footer -->
+  <!-- To switch to light version simply remove class ".footer-dark" -->
+  <footer class="footer footer-dark">                  
+    <div class="container">
+      <div class="col-md-4 subfooter-left">      
+          <img src="img/logo/logo_chilisoft.png" class="logo" alt="ChiliSoft">          
+      </div>    
+      <div class="col-md-4 subfooter-center">
+        <!--strong>ChiliSoft in the world</strong>
+        <ul>        
+            <li><a href="http://instagram.com/chilisoftadmin" target="_blank" class="instagram" title="Instagram"><img class="ico" src="img/icons/instagram.png" alt="Instagram" />Instagram</a></li> 
+            <li><a href="https://github.com/chiligit" target="_blank" class="github" title="GitHub"><img class="ico" src="img/icons/github.png" alt="GitHub" />GitHub</a></li> 
+        </ul-->
+      </div>
+      <div class="col-md-4 subfooter-right">      
+        <address class="space-bottom">
+            <strong>ChiliSoft Ltd.</strong><br/><br/>      
+            HUNGARY, 1056 Budapest, Nyáry Pál str 6.<br/>
+            <em>Phone:</em> +36 1 400 9475<br/>
+            <a href="mailto:info_KUKAC_chilisoft_PÖTTY_org">info_AT_chilisoft_DOT_org</a>            
+        </address>
+        <!--<span>&copy; 2015 ChiliSoft Kft.</span>-->
+      </div>
+    </div>
+  </footer><!-- Footer End -->
+
+
+  <!-- JavaScript (jQuery) libraries and scripts -->
+  <script src="js/libs/jquery-1.11.2.min.js"></script>
+  <script src="js/libs/jquery.easing.min.js"></script>  
+  <script src="js/plugins/bootstrap.min.js"></script>
+  <script src="js/plugins/smoothscroll.js"></script>
+  <script src="js/plugins/velocity.min.js"></script>
+  <script src="js/plugins/gmap3.min.js"></script>
+  <script src="js/plugins/form-plugins.js"></script>
+  <script src="js/plugins/waypoints.min.js"></script>
+  <script src="js/plugins/jquery.stellar.min.js"></script>
+  <script src="js/plugins/waves.min.js"></script>
+  <script src="masterslider/masterslider.min.js"></script>
+  <script src="js/plugins/jquery.spincrement.js"></script>
+  <script src="js/plugins/owl.carousel.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66870875-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body><!-- Body End -->
+
+</html>
