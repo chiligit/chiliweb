@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/chiligit/chiliweb.svg?branch=master)](https://travis-ci.org/chiligit/chiliweb)
+[![Build Status](https://travis-ci.org/chiligit/chiliweb.svg?branch=develop)](https://travis-ci.org/chiligit/chiliweb)
 
 # Chiliweb
 
