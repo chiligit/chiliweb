@@ -49,6 +49,56 @@
 			</main>
 
 		</div> <!-- /container -->
+		<!-- Use 'data-scroll-top' attribute to set value at which point the scroll to top button appears. -->
+		<a href="#" class="btn btn-icon btn-primary scroll-to-top-btn scroll-up waves-effect waves-light" data-scroll-top="600">
+			<i class="pe-7s-angle-up" style="font-size:37px;"></i>
+		</a>
+
+
+		<!-- Footer -->
+		<!-- To switch to light version simply remove class ".footer-dark" -->
+		<footer class="footer footer-dark">
+			<div class="container">
+				<div class="col-md-4 subfooter-left">
+					<img src="img/logo/logo_chilisoft.png" class="logo" alt="ChiliSoft">
+				</div>
+				<div class="col-md-4 subfooter-center">
+					<!--strong>ChiliSoft a nagyvilágban</strong>
+                    <ul>
+                        <li><a href="http://instagram.com/chilisoftadmin" target="_blank" class="instagram" title="Instagram"><img class="ico" src="img/icons/instagram.png" alt="Instagram" />Instagram</a></li>
+                        <li><a href="https://github.com/chiligit" target="_blank" class="github" title="GitHub"><img class="ico" src="img/icons/github.png" alt="GitHub" />GitHub</a></li>
+                    </ul-->
+				</div>
+				<div class="col-md-4 subfooter-right">
+					<%= render @view_module, @view_template, assigns %>
+					<address class="space-bottom">
+						<strong>ChiliSoft Kft.</strong><br/><br/>
+						1056 Budapest, Nyáry Pál utca 6.<br/>
+						<em>Telefon:</em> +36 1 400 9475<br/>
+						<a href="mailto:info_KUKAC_chilisoft_PÖTTY_org">info_KUKAC_chilisoft_PÖTTY_org</a>
+					</address>
+					<!--<span>&copy; 2015 ChiliSoft Kft.</span>-->
+				</div>
+			</div>
+		</footer><!-- Footer End -->
+
+
+		<!-- JavaScript (jQuery) libraries and scripts -->
+		<script src="js/libs/jquery-1.11.2.min.js"></script>
+		<script src="js/libs/jquery.easing.min.js"></script>
+		<script src="js/plugins/bootstrap.min.js"></script>
+		<script src="js/plugins/smoothscroll.js"></script>
+		<script src="js/plugins/velocity.min.js"></script>
+		<script src="js/plugins/gmap3.min.js"></script>
+		<script src="js/plugins/form-plugins.js"></script>
+		<script src="js/plugins/waypoints.min.js"></script>
+		<script src="js/plugins/jquery.stellar.min.js"></script>
+		<script src="js/plugins/waves.min.js"></script>
+		<script src="masterslider/masterslider.min.js"></script>
+		<script src="js/plugins/jquery.spincrement.js"></script>
+		<script src="js/plugins/owl.carousel.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<script src="js/smoothscroll.js"></script>
 		<script src="<%= static_path(@conn, "/js/app.js") %>"></script>
 	</body>
 </html>
